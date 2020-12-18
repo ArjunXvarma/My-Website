@@ -1,0 +1,398 @@
+<!-- Project initiated on november 30th 2020 -->
+
+{% load static %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Arjun Varma</title>    
+	
+		<script src="https://kit.fontawesome.com/b5826cdd31.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="icon" href="{% static 'Site/images/resumeCircle.png' %}">
+		<link rel="stylesheet" href="{% static 'Site/css/style.css' %}">
+		<!-- <link rel="stylesheet" href="{% static 'Site/css/responsive.css' %}"> -->
+	</head>
+
+	<body style="font-weight: bold;">
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+		    <a class="navbar-brand" href="#home" style="color: #F97F51">Arjun Varma</a>
+		    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+		        <span class="navbar-toggler-icon"></span>
+		    </button>
+
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto colorMe">
+		    		<li class="nav-item active">
+		        		<a class="nav-link" href="#home" style="color: #F97F51">Home<span class="sr-only">(current)</span></a>
+		      		</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#About" style="color:  #F97F51">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#portfolio" style="color: #F97F51">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact" style="color:  #F97F51">Contact</a>
+					</li>
+				</ul>
+		    </div>
+		</nav>
+
+		<header>
+			<div class="container" id="home">
+				<img src="{% static 'Site/images/resume.jpg' %}" class="responsive-img">
+				<div class="banner-text">
+					<div class="text-area">
+						<span>A</span>
+						<span>R</span>
+						<span>J</span>
+						<span>U</span>
+						<span>N</span>&nbsp;
+						<span>V</span>
+						<span>A</span>
+						<span>R</span>
+						<span>M</span>
+						<span>A</span>
+					</div>
+					<p>Self-taught Game Developer, Chef & Guitarist.<br>Learning the whole process by being as practical as possible!</p>
+					<p class="banner-btn"><a href="#About">More</a></p>
+				</div>
+				<ul class="list-group">
+					<li><a href="https://www.linkedin.com/in/arjun-varma-266b06200/"><i class="fa fa-linkedin" style="color: #F97F51"></i></a></li>
+					<li><a href="https://twitter.com/ArjunVarma_"><i class="fa fa-twitter" style="color: #F97F51"></i></a></li>
+					<li><a href="#contact"><i class="fa fa-google" style="color: #F97F51"></i></a></li>
+					<li><a href="https://github.com/ArjunXvarma"><i class="fa fa-github" style="color: #F97F51"></i></a></li>
+				</ul>
+			</div>
+		</header>
+
+		<div class="container-fluid section2">
+			<h1 class="navbar-brand" id="About" style="font-weight: bolder;">About Myself</h1>
+			<div class="row" style="padding: 0;">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 label-wrapper" style="color: #2C3A47;">
+					<p style="font-weight: bold;">I was passionate about video games ever since I was a child.
+					Being born into a family of Software Engineers, it was only natural for me to love computers and coding. 
+					When I figured out that video games are made through code, I could not be any happier knowing that two of my most favorite hobbies
+					can be combined to produce an amazing result of Art and Technology!
+				 	</p>
+				</div>
+			</div>
+
+			<h1 class="navbar-brand" style="font-weight: bolder;">Future Ventures</h1>
+			<div class="row" style="padding: 0;">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 label-wrapper" style="padding: 0;">
+					<ul class="list-group" style="font-weight: bold; padding: 0 60px;">
+						<li style="color: #2C3A47; 
+						transform: scale(1); 
+						list-style: disc; 
+						padding: 0; 
+						margin: 0;
+						font-size: 25px;">Create a Minecraft clone</li>
+						<li style="color: #2C3A47; 
+						transform: scale(1); 
+						list-style: disc; 
+						padding: 0; 
+						margin: 0;
+						font-size: 25px;">Create a multiplayer game for my friends and I to play</li>
+						<li style="color: #2C3A47; 
+						transform: scale(1); 
+						list-style: disc; 
+						padding: 0; 
+						margin: 0;
+						font-size: 25px;">Learn more about computer graphics</li>
+						<li style="color: #2C3A47; 
+						transform: scale(1); 
+						list-style: disc; 
+						padding: 0; 
+						margin: 0;
+						font-size: 25px;">Learn about the use of Artificial Intelligence in video games</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid section3">
+			<h1 class="navbar-brand" style="font-weight: bold;">Skills</h1>
+			<div class="row" style="margin: 0;">
+				<div class="card col-xs-2 col-lg-2">
+					<div class="icon">
+						<i class="fab fa-python"></i>
+					</div>
+					<div class="content">
+						<p>Python</p>
+					</div>
+				</div>
+
+				<div class="card col-xs-2 col-lg-2">
+					<div class="icon">
+						<i class="fab fa-java"></i>
+					</div>
+					<div class="content">
+						<p>Java</p>
+					</div>
+				</div>
+
+				<div class="card col-xs-2 col-lg-2">
+					<div class="icon">
+						<i class="fab fa-js-square"></i>
+					</div>
+					<div class="content">
+						<p>JavaScript</p>
+					</div>
+				</div>
+
+				<div class="card col-xs-2 col-lg-2">
+					<div class="icon">
+						<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+						width="60" height="60"
+						viewBox="0 0 172 172"
+						style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#f97f51"><path d="M151.05094,41.29344l-57.92906,-32.55906c-4.39406,-2.45906 -9.84969,-2.45906 -14.24375,0l-57.92906,32.55906c-4.43438,2.48594 -7.18906,7.14875 -7.18906,12.1475v65.11813c0,4.99875 2.75469,9.66156 7.18906,12.1475l57.92906,32.55906c2.20375,1.23625 4.66281,1.85437 7.12187,1.85437c2.45906,0 4.91813,-0.61812 7.12188,-1.85437l57.92906,-32.55906c4.43438,-2.48594 7.18906,-7.14875 7.18906,-12.1475v-65.11813c0,-4.99875 -2.75469,-9.66156 -7.18906,-12.1475zM86,127.28c-22.76312,0 -41.28,-18.51687 -41.28,-41.28c0,-22.76312 18.51688,-41.28 41.28,-41.28c13.0075,0 25.02063,6.03344 32.82781,16.31313l-15.07688,8.72094c-4.52844,-4.95844 -10.965,-7.83406 -17.75094,-7.83406c-13.27625,0 -24.08,10.80375 -24.08,24.08c0,13.27625 10.80375,24.08 24.08,24.08c6.78594,0 13.2225,-2.87562 17.75094,-7.83406l15.07688,8.72094c-7.80719,10.27969 -19.82031,16.31312 -32.82781,16.31312zM127.28,89.44h-6.88v6.88h-6.88v-6.88h-6.88v-6.88h6.88v-6.88h6.88v6.88h6.88zM151.36,89.44h-6.88v6.88h-6.88v-6.88h-6.88v-6.88h6.88v-6.88h6.88v6.88h6.88z"></path></g></g></svg>
+					</div>
+					<div class="content">
+						<p>C++</p>
+					</div>
+				</div>
+
+				<div class="card col-xs-2 col-lg-2">
+					<div class="icon">
+						<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+						width="60" height="60"
+						viewBox="0 0 172 172"
+						style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#f97f51"><path d="M86,6.88c-2.45906,0 -4.91812,0.61813 -7.10844,1.85438l-57.9425,32.55906c-4.43438,2.48594 -7.18906,7.14875 -7.18906,12.1475v65.11813c0,4.99875 2.75469,9.66156 7.18906,12.1475l57.9425,32.55906c2.19031,1.23625 4.64937,1.85437 7.10844,1.85437c2.45906,0 4.91813,-0.61812 7.10844,-1.85437l57.9425,-32.54563c4.43438,-2.49937 7.18906,-7.16219 7.18906,-12.16094v-65.11813c0,-4.99875 -2.75469,-9.66156 -7.18906,-12.1475l-57.9425,-32.55906c-2.19031,-1.23625 -4.64937,-1.85438 -7.10844,-1.85438zM86,44.72c13.0075,0 25.03406,6.03344 32.82781,16.29969l-15.07688,8.73438c-4.52844,-4.95844 -10.965,-7.83406 -17.75094,-7.83406c-13.27625,0 -24.08,10.80375 -24.08,24.08c0,13.27625 10.80375,24.08 24.08,24.08c6.78594,0 13.2225,-2.87562 17.75094,-7.83406l15.07688,8.73438c-7.79375,10.26625 -19.82031,16.29969 -32.82781,16.29969c-22.76312,0 -41.28,-18.51687 -41.28,-41.28c0,-22.76312 18.51688,-41.28 41.28,-41.28zM120.4,68.8h6.88v6.88h6.88v-6.88h6.88v6.88h6.88v6.88h-6.88v6.88h6.88v6.88h-6.88v6.88h-6.88v-6.88h-6.88v6.88h-6.88v-6.88h-6.88v-6.88h6.88v-6.88h-6.88v-6.88h6.88zM127.28,82.56v6.88h6.88v-6.88z"></path></g></g></svg>
+					</div>
+					<div class="content">
+						<p>C#</p>
+					</div>
+				</div>
+
+				<div class="card col-xs-2 col-lg-2">
+					<div class="icon">
+						<i class="fab fa-html5"></i>
+					</div>
+					<div class="content">
+						<p>HTML5</p>
+					</div>
+				</div>
+
+				<div class="card col-xs-2 col-lg-2">
+					<div class="icon">
+						<i class="fab fa-css3-alt"></i>
+					</div>
+					<div class="content">
+						<p>CSS3</p>
+					</div>
+				</div>
+
+				<div class="card col-xs-2 col-lg-2">
+					<div class="icon">
+						<i class="fab fa-bootstrap"></i>
+					</div>
+					<div class="content">
+						<p>Bootstrap</p>
+					</div>
+				</div>
+
+				<div class="card col-xs-2 col-lg-2">
+					<div class="icon">
+						<i class="fab fa-unity"></i>
+					</div>
+					<div class="content">
+						<p>Unity</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid section4" id="portfolio" style="padding-bottom: 15px; padding-top: 0;">
+			<!-- image should be of width: 692 and height: 571 -->
+			<h1 style="font-weight: bold; margin: 0;">Portfolio</h1>
+			<div class="default">
+				<div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<!-- <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselIndicators" data-slide-to="1"></li> -->
+						{% for post in posts %}
+							{% if forloop.counter0 == 0 %}
+								<li data-target="#carouselIndicators" data-slide-to="{{ forloop.counter0 }}" class="active"></li>
+							{% else %}
+								<li data-target="#carouselIndicators" data-slide-to="{{ forloop.counter0 }}"></li>
+							{% endif %}
+						{% endfor %}
+					</ol>
+
+					<div class="carousel-inner">
+						<!-- <div class="carousel-item active">
+							<div class="container-fluid">
+								<div class="row padding--zero">
+									<div class="col-md-6 col-xs-6 padding--zero description">
+										<h2>Vertex</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										</p>
+										<a href="#">View on the PlayStore</a><br><br>
+										<a href="#">View the code</a>
+									</div>
+									<div class="col-md-6 col-xs-6 padding--zero" style="padding: 0;">
+										
+										<img class="d-block w-100" src="{% static 'Site/images/vertexBanner.png' %}" alt="First slide">
+									</div>
+								</div>
+							</div>  
+						</div>-->
+
+ 						{% for post in posts %}
+							{% if forloop.counter == 1 %}
+								<div class="carousel-item active">
+									<div class="container-fluid">
+										<div class="row">
+											<div class="col-md-6 padding--zero description">
+												<h2 style="text-transform: uppercase; font-size: 40px; font-weight: bold;">{{ post.title }}</h2>
+												<p>{{ post.content }}
+												</p>
+												<a href="{{ post.playStoreLink }}">View on {{post.platform}}</a><br><br>
+												<a href="{{ post.gitHubLink }}">View the code</a>
+											</div>
+											<div class="col-md-6 padding--zero image" style="padding: 0;">
+												{% if post.image %}
+													<img class="d-block w-100" src={{ post.image.url }} alt="First slide" style="height: 571px; width: 692px;">
+												{% else %}
+													<p>No image to display</p>
+												{% endif %}
+											</div>
+										</div>
+									</div>  
+								</div>
+							{% else %}
+								<div class="carousel-item">
+									<div class="container-fluid">
+										<div class="row">
+											<div class="col-md-6 padding--zero description">
+												<h2 style="text-transform: uppercase; font-size: 40px; font-weight: bold;">{{ post.title }}</h2>
+												<p>{{ post.content }}
+												</p>
+												<a href="{{ post.playStoreLink }}">View on {{post.platform}}</a><br><br>
+												<a href="{{ post.gitHubLink }}">View the code</a>
+											</div>
+											<div class="col-md-6 padding--zero image" style="padding: 0;">
+												{% if post.image %}
+													<img class="d-block w-100" src={{ post.image.url }} alt="First slide"  style="height: 571px; width: 692px;">
+												{% else %}
+													<p>No image to display</p>
+												{% endif %}
+											</div>
+										</div>
+									</div>  
+								</div>
+							{% endif %}
+						{% endfor %}
+					</div>
+				</div><!-- image width: 697 image height: 571 -->
+			</div>
+
+			<div class="responsive">
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						{% for post in posts %}
+						{% if forloop.counter0 == 0 %}
+							<li data-target="#carouselIndicators" data-slide-to="{{ forloop.counter0 }}" class="active"></li>
+						{% else %}
+							<li data-target="#carouselIndicators" data-slide-to="{{ forloop.counter0 }}"></li>
+						{% endif %}
+					{% endfor %}
+					</ol>
+					<div class="carousel-inner">
+					  	<!-- <div class="carousel-item active">
+							<img src="{% static 'Site/images/vertexBanner.png' %}" class="d-block w-100" alt="...">
+							<div class="textBlock">
+								<h1>Vertex</h1>
+								<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, natus neque. Corporis, harum sed eaque ratione nesciunt tenetur dolor porro consequuntur.</p>
+								<a href="#">View in PlayStore</a>
+								<a href="#">View code</a>
+							</div>
+					  	</div> -->
+						{% for post in posts %}
+							{% if forloop.counter == 1 %}
+								<div class="carousel-item active">
+									{% if post.image %}
+										<img class="d-block w-100 mx-auto" src={{ post.image.url }} alt="First slide" >
+									{% else %}
+										<p>No image to display</p>
+									{% endif %}
+									<div class="textBlock">
+										<h1 style="font-weight: bold;">{{ post.title }}</h1>
+										<p>{{ post.content }}</p>
+										<a href="#">View on {{post.platform}}</a>
+										<a href="#">View code</a>
+									</div>
+								</div>
+							{% else %}
+								<div class="carousel-item">
+									{% if post.image %}
+										<img class="d-block w-100 mx-auto" src={{ post.image.url }} alt="First slide">
+									{% else %}
+										<p>No image to display</p>
+									{% endif %}
+									<div class="textBlock">
+										<h1 style="font-weight: bold;">{{ post.title }}</h1>
+										<p>{{ post.content }}</p>
+										<a href="#">View on {{post.platform}}</a>
+										<a href="#">View code</a>
+									</div>
+								</div>
+							{% endif %}
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid row justify-content-center section5" id="contact" style="margin:0;">
+			<h1 style="font-weight: bold;">Contact me</h1>
+			<div class="col-lg-12 row justify-content-center">
+				<form action="https://formspree.io/f/xqkgyvyp" method="POST">
+					<div class="form-group">
+						<label for="exampleFormControlInput1">Name</label>
+						<input style="font-weight: bold;" type="input" class="form-control" id="exampleFormControlInput1" placeholder="name" name="name">
+					</div>
+
+					<div class="form-group">
+						<label for="exampleFormControlInput1">Email address</label>
+						<input  style="font-weight: bold;" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="email">
+					</div>
+
+					<div class="form-group">
+						<label for="exampleFormControlInput1">Subject</label>
+						<input  style="font-weight: bold;" type="input" class="form-control" id="exampleFormControlInput1" placeholder="Subject" name="subject">
+					</div>
+
+					<div class="form-group">
+						<label for="exampleFormControlSelect1">Reason</label>
+						<select style="font-weight: bold;" class="form-control" id="exampleFormControlSelect1" name="reason">
+							<option>Business</option>
+							<option>Social Media</option>
+							<option>Software</option>
+							<option>Just to say Hi!</option>
+							<option>Other</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="exampleFormControlTextarea1">Content</label>
+						<textarea style="font-weight: bold;" class="form-control" id="exampleFormControlTextarea1" rows="3" name="content"></textarea>
+					</div>
+					<div class="form-group row justify-content-center button padding--zero">
+						<button class="btn submit" style="font-weight: bold;">Submit</button>
+					</div>
+			    </form>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+</html>
+
+<!-- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, iusto culpa adipisci ut maiores dolorem autem rem laborum aperiam commodi, quia et. Eaque pariatur voluptatum rerum aliquam, mollitia officia eveniet. -->

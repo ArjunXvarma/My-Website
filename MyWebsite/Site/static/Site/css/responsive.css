@@ -1,0 +1,402 @@
+/* Responsive CSS */
+@media (max-width: 415px) and (min-width: 200px){
+	/* section1 */
+	.banner-text p{
+		font-size: 18px;
+	}
+
+	.text-area{
+		font-size: 41px;
+	}
+
+	header .container img{
+		display: none;
+	}
+
+	.banner-btn a{
+		font-size: 16px;
+	}
+
+	.banner-text{
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	/* section2 */
+	.section2{
+		padding: 10px 20px;
+	}
+
+	.section2 h1{
+		font-size: 30px;
+		padding: 0 0 10px 0;
+	}
+
+	.section2 .row p{
+		font-size: 18px;
+	}
+
+	.section3{
+		padding: 10px 20px;
+	}
+
+	.section3 h1{
+		font-size: 30px;
+		padding: 0 0 10px 0;
+	}
+
+	.section3 .row .card{
+		height: 150px;
+		width: 150px;
+	}
+
+	.card .content p{
+		font-size: 25px;
+	}
+
+	.section4{
+		padding: 10px 20px;
+	}
+
+	.section4 h1{
+		font-size: 30px;
+		margin: 0;
+		text-transform: uppercase;
+	}
+
+	.section4 .default{
+		display: none;
+	}
+
+	.section4 .responsive{
+		display: contents;
+	}
+
+	.section4 .carousel-item .textBlock{
+		position: absolute;
+		top: 0%;
+		left: 0%;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		padding: 20px 10px 10px 10px;
+		font-weight: bold;
+		background-color: rgba(0, 0, 0, 0.3);
+		height: 100%;
+		width: 100%;
+		color: #F97F51;
+	}
+
+	.section4 .carousel-item .textBlock p{
+		font-size: 15px;
+		padding: 0;
+		margin: 0 0 10px 0;
+	}
+
+	.section4 .carousel-item .textBlock a{
+		text-decoration: none;
+		background-color: #F97F51;
+		color: #2C3A47;
+		padding: 5px 10px;
+		border-radius: 5px;
+		font-weight: bold;
+	}
+
+	.section5 h1{
+		font-size: 30px;
+	}
+}
+
+@media (min-width: 500px) and (max-width: 900px){
+	.text-area{
+		font-size: 30px;
+	}
+
+	header .container ul{
+		position: absolute;
+		top: 20%;
+		right: 1%;
+	}
+
+	header .container img{
+		display: none;
+	}
+
+	.banner-btn a{
+		font-size: 16px;
+	}
+
+	.banner-text{
+		top: 60%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.banner-text p{
+		font-size: 20px;
+	}
+
+	/* section2 */
+	.section2{
+		padding: 10px 20px;
+	}
+
+	.section2 h1{
+		font-size: 30px;
+		padding: 0 0 10px 0;
+	}
+
+	.section2 .row p{
+		font-size: 18px;
+	}
+
+	.section3{
+		padding: 10px 20px;
+	}
+
+	.section3 h1{
+		font-size: 30px;
+		padding: 0 0 10px 0;
+	}
+
+	.section3 .row .card{
+		height: 150px;
+		width: 150px;
+	}
+
+	.card .content p{
+		font-size: 25px;
+	}
+
+	.section4{
+		padding: 10px 20px;
+	}
+
+	.section4 h1{
+		font-size: 30px;
+		padding: 0 0 10px 0;
+		text-transform: uppercase;
+	}
+
+	.section4 .default{
+		display: none;
+	}
+
+	.section4 .responsive{
+		display: contents;
+	}
+
+	.section4 .carousel-item .textBlock{
+		position: absolute;
+		top: 0%;
+		left: 0%;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		padding: 20px 10px;
+		font-weight: bold;
+		background-color: rgba(0, 0, 0, 0.3);
+		height: 100%;
+		width: 100%;
+		color: #F97F51;
+	}
+
+	.section4 .carousel-item .textBlock p{
+		font-size: 15px;
+		padding: 0;
+		margin: 0 0 20px 0;
+	}
+
+	.section4 .carousel-item .textBlock a{
+		text-decoration: none;
+		background-color: #F97F51;
+		color: #2C3A47;
+		padding: 5px 10px;
+		border-radius: 5px;
+		font-weight: bold;
+	}
+
+	.section4 .responsive img{
+		height: 255px;
+		width: 255px;
+	}
+
+	.section5 h1{
+		font-size: 30px;
+	}
+}
+
+@media (min-width: 319px) and (max-width: 321px){
+	.section4 .carousel-item .textBlock h1{
+		font-size: 20px;
+		padding: 0;
+		text-transform: uppercase;
+	}
+
+	.section4 .carousel-item .textBlock p{
+		font-size: 14px;
+		margin: 0;
+	}
+	
+	.section4 .carousel-item .textBlock a{
+		font-size: 10px;
+	}
+	
+	.responsive ol{
+		margin-bottom: 1px;
+	}
+}
+
+@media (min-width: 567px) and (max-width: 569px){
+	.list-group li{
+		font-size: 20px;
+		padding: 2px 5px;
+	}
+}
+
+@media (max-width: 1390px) and (min-width: 1000px){
+	/* section1 */
+	.text-area{
+		font-size: 41px;
+	}
+
+	.banner-text p{
+		font-size: 30px;
+	}
+
+	header .container img{
+		display: none;
+	}
+
+	.banner-btn a{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.banner-text{
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	header .container .list-group li a i{
+		font-size: 35px;
+		padding: 8px 0px;
+	}
+
+	/* section2 */
+	.section2{
+		padding: 10px 20px;
+	}
+
+	.section2 h1{
+		font-size: 30px;
+		padding: 0 0 10px 0;
+	}
+
+	.section2 .row p{
+		font-size: 25px;
+	}
+
+	.section3{
+		padding: 10px 20px;
+	}
+
+	.section3 h1{
+		font-size: 30px;
+		padding: 0 0 10px 0;
+	}
+
+	.section3 .row .card{
+		height: 200px;
+		width: 200px;
+	}
+
+	.card .content p{
+		font-size: 30px;
+		padding: 0 15px;
+	}
+
+	.section4{
+		padding: 10px 20px;
+	}
+
+	.section4 h1{
+		font-size: 30px;
+		padding: 0 0 10px 0;
+	}
+
+	.section4 .default{
+		display: none;
+	}
+
+	.section4 .responsive{
+		display: contents;
+	}
+
+	.section4 .carousel-item .textBlock{
+		position: absolute;
+		top: 0%;
+		left: 0%;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		padding: 90px 10px;
+		font-weight: bold;
+		background-color: rgba(0, 0, 0, 0.3);
+		height: 100%;
+		width: 100%;
+		color: #F97F51;
+		margin: 0;
+	}
+
+	.section4 .carousel-item .textBlock h1{
+		font-size: 60px;
+		text-transform: uppercase;
+	}
+
+	.section4 .carousel-item .textBlock p{
+		font-size: 50px;
+		padding: 0;
+		margin: 0 0 20px 0;
+	}
+
+	.section4 .carousel-item .textBlock a{
+		text-decoration: none;
+		background-color: #F97F51;
+		color: #2C3A47;
+		padding: 5px 10px;
+		border-radius: 5px;
+		font-weight: bold;
+		font-size: 30px;
+	}
+
+	.section5 h1{
+		font-size: 40px;
+	}
+}
+
+@media (min-width: 760px) and (max-width: 1025px){
+	header .container ul{
+		position: absolute;
+		top: 45%;
+		right: 1%;
+	}
+
+	.responsive .carouselExampleIndicators .carousel-inner .carousel-item img{
+		height: 600px;
+	}
+}
+
+@media (min-width: 1023px) and (max-width: 1025px){
+	header .container ul{
+		position: absolute;
+		top: 37%;
+		right: 1%;
+	}
+
+	.responsive .carouselExampleIndicators .carousel-inner .carousel-item img{
+		height: 600px;
+	}
+}
